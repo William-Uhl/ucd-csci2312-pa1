@@ -10,3 +10,6 @@ A function called computeArea finds the area of the triangle formed by the three
 In order to do this a distanceTo function is called that finds the distance between two points.
 
 The area of the triangle is outputed to the user and then the program ends.  
+
+Complier:
+The complier I used was MinGW
