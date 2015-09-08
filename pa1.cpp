@@ -5,6 +5,7 @@
 #include <math.h>
 #include "Point.h"
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -66,7 +67,8 @@ int main(void) {
     area = computeArea(point1, point2, point3);
 
     //print out the found area
-    cout << "The area of the triangle you entered is: " << area << endl;
+    cout << fixed << setprecision(2) << "The area of the triangle you entered is: " << area << endl;
 
     return 0;
 }
+
